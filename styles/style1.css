@@ -50,7 +50,7 @@ nav {
   margin: auto;
   min-height: 80vh;
   align-items: center;
-  animation: drop 2s ease;
+  animation: drop 3s ease;
 }
 
 .cover {
