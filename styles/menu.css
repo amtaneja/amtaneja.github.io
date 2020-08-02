@@ -140,6 +140,10 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .menu{
+    flex-direction: column;
+  }
   .menu-wrap {
     height: 70%;
   }
