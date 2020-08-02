@@ -187,8 +187,11 @@ nav {
 
 @media screen and (max-width: 480px) {
   .cover img {
-    height: 60%;
+    height: 70%;
     align-content: center;
+  }
+  .project h1{
+    margin-top: 0px;
   }
 }
 
