@@ -250,7 +250,7 @@ section {
   width: 185%;
   filter: drop-shadow(0px 5px 3px black);
   margin-top: 35%;
-  margin-left: 3%;
+  margin-left: 5%;
   border: 10px solid rgba(245, 137, 36, 0.4);
   box-sizing: border-box;
 }
