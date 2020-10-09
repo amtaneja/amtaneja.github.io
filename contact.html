@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | AT</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- main stylesheet --> 
+    <link rel="stylesheet" href="styles/contact.css" />
+    <!-- menu button and overlay styles-->
+    <link rel="stylesheet" type="text/css" href="styles/menu1.css"/>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+    
+    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script> 
+
+    
+    <!-- Font Styles used -->
+   
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Volkhov:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <meta name=theme-color content=#000000>
+  </head>
+  
+  <body>
+    <!--initial loader at the starting of webpage-->
+    
+   
+
+    
+   
+      
+    
+    <header>
+    
+          <input type="checkbox" class="toggler">
+          <div class="hamburger">
+            <div></div>
+          </div>
+          <div class="menu">
+            <div>
+              <div>
+                <h5 style="color:rgb(218, 214, 214);">MENU</h5>
+                <ul>
+                  
+                  <li><a href="file:///G:/part2/about/about.html">About me</a></li>
+                  <li><a href="#">Projects</a></li>
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="file:///G:/part2/contact/contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+              
+    
+
+    </header>
+
+    
+      
+      
+<main id="swup" class="transition-fade">
+    <section id="contact">
+      <div class="social">
+        <a href=""><i class="fab fa-facebook-f"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+      </div>
+
+      <div class="contact-box">
+        <div class="c-heading">
+          <h1>Get In Touch</h1>
+          <p>Email Us Regrading Questions or Issues</p>
+        </div>
+
+        <div class="c-inputs">
+          <input type="text" placeholder="Full Name"/>
+          <input type="text" placeholder="example@gmail.com" />
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Write Message"
+          ></textarea>
+          <button>SEND</button>
+        </div>
+      </div>
+
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14595.289445367216!2d78.78909972198758!3d23.86044087642817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3978d1a6908ee29b%3A0xa140782e127d6d82!2sJyoti%20Nagar%2C%20Makroniya%2C%20Madhya%20Pradesh%20470004!5e0!3m2!1sen!2sin!4v1600626395475!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </div>
+
+      <div class="letters">
+        <div class="letters">
+            <i>L</i>
+            <i style="color:black;">E</i>
+            <i style="color: black;">T'
+            </i>
+            <i>S </i>
+            <i style="color:black;">W</i>
+            <i>O</i>
+            <i>R</i>
+            <i style="color:black;">K</i>
+            <i style="color:black;">T</i>
+            <i> O</i>
+            <i>G</i>
+            <i style="color:black;">E</i>
+            <i>T</i>
+            <i style="color:black;">H</i>
+            <i style="color:black;">E</i>
+            <i>R</i>
+
+        </div>
+
+
+      </div>
+
+      
+    </section>
+  
+  </main>
+  
+  
+  
+  
+  </body>
+
+ 
+
+  <script>
+  var preloader  = document.getElementById('loading');
+    function loader(){
+      preloader.style.display ='none';
+    }</script>
+  <script src="js/script.js"></script>
+  <script>
+    
+    const checkpoint = 300;
+
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
+  if (currentScroll <= checkpoint) {
+    opacity = 1 - currentScroll / checkpoint;
+  } else {
+    opacity = 0;
+  }
+  document.querySelector(".top").style.opacity = opacity;
+});
+  </script>
+
+
+<script>
+ $(document).ready(function(){
+    $(".menu a").click(function(){
+        $(".toggler").prop("checked", false);
+    });
+});
+
+</script>
+<script>
+  const swup = new Swup(); 
+</script>
+  
+  
+</html>
