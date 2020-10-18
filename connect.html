@@ -22,6 +22,11 @@
     <link rel="stylesheet" type="text/css" href="styles/contact.css" />
     <link rel="stylesheet" type="text/css" href="styles/footer.css" />
 
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
     
@@ -130,6 +135,61 @@
         </div>
         </section>
 
+        <div class="middle" id="middle" >
+          <div class="project">
+            <h1 data-scroll>Projects and Case Studies</h1>
+          </div>
+    
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="sliderText">
+                    <h3>Web Development</h3>
+                  </div>
+                  <div class="content">
+                    <p>
+                      We create wonderful websites from designing to development stage
+                      using figma , html , css and javascript.
+                    </p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="sliderText">
+                    <h3>Electronics</h3>
+                  </div>
+                  <div class="content">
+                    <p>
+                      We had created several electronics projects using arduino and
+                      raspberry pi as hardware platform.
+                    </p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="sliderText">
+                    <h3>App Development</h3>
+                  </div>
+                  <div class="content">
+                    <p>
+                      We work on App development using flutter framework to create the
+                      cross platform appliactions.
+                    </p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       
+        </div>
         
       
     </main>
@@ -223,7 +283,29 @@
 
   <script src="script.js"></script>
 
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+  <script>
+    var swiper = new Swiper(".swiper-container", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      updateOnWindowResize: true,
+      initialSlide: 1,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+
   <script>
     function validateName(){var e=document.getElementById("name").value;return 0==e.length?(alert("Name can't be blank"),!1):!!e.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)||(alert("Please enter name in correct format. Numbers and space after name is not allowed."),!1)}
     function validateEmail(){var e=document.getElementById("email").value;return 0==e.length?(alert("Email can't be blank"),!1):!!e.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)||(alert("Please enter a correct email address"),!1)}
