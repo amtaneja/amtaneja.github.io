@@ -61,7 +61,7 @@
                   
                   <li rel="one"><a href="about.html" data-after="About me">About me</a></li>
                   <li rel="two"><a href="index.html#middle" data-after="Projects">Projects</a></li>
-                  <li rel="three"><a href="https://www.instagram.com/aman.taneja/" data-after="Instagram">Instagram</a></li>
+                  <li rel="three"><a href="https://www.instagram.com/aman.taneja/" target="_blank" data-after="Instagram">Instagram</a></li>
                   <li rel="four"><a href="connect.html" data-after="Contact">Contact</a></li>
                   
                 </ul>
@@ -90,8 +90,8 @@
             </div>
             <h3 class="header light">
               <p>
-                 I have worked with one of the biggest IT company in India for past 2 years.
-                 Now I aspire to become a full fledged coder working for startups and help to add value in their goals.
+                 I have worked with one of the biggest IT companies in India for past 2 years.
+                 Now I aspire to become a full fledged coder working for startups and help to add value to their goals.
                  Website designing and building are my key skills. 
               </p>
             </h3>
@@ -130,12 +130,12 @@
            </div>
            <p>Developed mobile friendly fully responsive website for my freelance project with Manyavar Indore.
               Website includes various features like advance form submission 
-              with instant notification on email account using G-suite.
+              with instant notification on email account using Google-Suite.
            </p>
-           <a href="" class="btn body-btn">Check It Out</a>
+           <a href="https://manyavarindore.netlify.app" class="btn body-btn" target="_blank">Check It Out</a>
          </div>
          <div class="info-image animate-right">
-           <img src="images/mode.jpg" alt="">
+           <img src="images/macdisplay.jpg" alt="">
          </div>
        </div>
      </div> 
@@ -151,7 +151,7 @@
           </h2>
         </div>
         <div class="animate-bottom">
-          <h1 class="headline ">Mobile Version</h1>
+          <h1 class="headline">Mobile Version</h1>
         </div>
        
         
@@ -163,10 +163,10 @@
      <div class="container">
        <div class="info">
          <div class="image-group padding-right animate-left">
-           <img src="images/mode2.gif" alt=""  >
+           <img src="images/pi.gif" alt=""  >
            <img src="images/esp.gif" alt=""  >
            <img src="images/py.jpg" alt=""  >
-           <img src="images/model1.gif" alt="" >
+           <img src="images/analytics.gif" alt="" >
          </div>
          
          <div class="description animate-right">
@@ -178,9 +178,9 @@
             <div class="asterisk"><i class="fas fa-asterisk"></i></div>
           </div>
           <p>This project does Sensor Data Analytics and controlled action over cloud. It includes ESP module to 
-            capture the sensor data and send it to cloud .After analysing data 
-            controlled action will be taken like switching on and off any appliances.Here raspberry pi has been used as a local cloud.</p>
-          <a href="" class="btn body-btn">Github Link</a>
+            capture the sensor data and send it to cloud. After analysing this data, 
+            controlled action will be taken like switching on and off any appliances. Here raspberry pi has been used as a local cloud.</p>
+          <a href="" class="btn body-btn" target="_blank">Github Link</a>
          </div>
        </div>
      </div>
@@ -216,12 +216,12 @@
           </div>
           <p>Smart water level indicator system using flutter and firebase shows water level for the domestic water tank. 
             User can see the water level in mobile app in perecntage format. It reduces the water wastage by 
-            automatically turn off the pump once water level reaches certain percentage set by the user.</p>
-          <a href="" class="btn body-btn">Check It Out</a>
+            automatically turning off the pump once water level reaches certain percentage set by the user.</p>
+          <a href="" class="btn body-btn" target="_blank">Check It Out</a>
         </div>
         <div class="image-group">
-          <img  class="animate-top" src="images/1.png" alt="" >
-          <img  class="animate-bottom" src="images/2.png" alt="" >
+          <img  class="animate-top" src="images/firebase.png" alt="" >
+          <img  class="animate-bottom" src="images/flutter.png" alt="" >
         </div>
       </div>
     </div> 
@@ -238,9 +238,9 @@
     <h4>about me</h4>
     <p>Over the past 2 years, I’ve worked with one of the biggest IT company in india as a system engineer and now i am looking for the opportunites to work with startups and companies to reach their goal with the designing and website building aspects</p>
     <div class=footer-social>
-      <a href="https://www.facebook.com/aman.taneja.773"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.facebook.com/aman.taneja.773" target="_blank"><i class="fab fa-facebook-f"></i></a>
       <a href=""><i class="fab fa-twitter"></i></a>
-      <a href="https://www.instagram.com/aman.taneja/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.instagram.com/aman.taneja/" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
     </div>
     <div class=single-footer>
@@ -265,7 +265,7 @@
     <div class=single-footer>
     <h4>contact</h4>
     <ul>
-    <li><a href="https://goo.gl/maps/32eYEEbnUSot83rW7"><i class="fas fa-map-marker-alt"></i>Sagar, India</a></li>
+    <li><a href="https://goo.gl/maps/32eYEEbnUSot83rW7" target="_blank"><i class="fas fa-map-marker-alt"></i>Sagar, India</a></li>
     
     <li><a href=mailto:amantaneja3105@gmail.com><i class="far fa-envelope"></i> amantaneja3105@gmail.com</a></li>
     
@@ -294,59 +294,27 @@
     }</script>
   
   <script>
-    
     const checkpoint = 300;
-
-window.addEventListener("scroll", () => {
-  const currentScroll = window.pageYOffset;
-  if (currentScroll <= checkpoint) {
-    opacity = 1 - currentScroll / checkpoint;
-  } else {
-    opacity = 0;
-  }
-  document.querySelector(".top").style.opacity = opacity;
-});
+    window.addEventListener("scroll", () => {
+    const currentScroll = window.pageYOffset;
+    if (currentScroll <= checkpoint) {
+      opacity = 1 - currentScroll / checkpoint;
+    } else {
+      opacity = 0;
+    }
+    document.querySelector(".top").style.opacity = opacity;
+  });
   </script>
 
-<script>
-  $(document).ready(function(){
-  $(window).scroll(function(){
-    if($(window).scrollTop() > 300){
-      $('#up').css({
-        "opacity":"1", "pointer-events":"auto"
-      });
-    }else{
-      $('#up').css({
-        "opacity":"0", "pointer-events":"none"
-      });
-    }
-  });
-  $('#up').click(function(){
-    $('html').animate({scrollTop:0}, 500);
-  });
-});
-</script>
-
-<script>
- $(document).ready(function(){
-    $(".menu a").click(function(){
-        $(".toggler").prop("checked", false);
-    });
-});
-
-</script>
-
-
-
-
-<script>
-  $('ul li').hover(function(){
+  <script>
+    $('ul li').hover(function(){
     $('#picture').removeClass().addClass(
       $(this).attr('rel'));
 
       $(this).addClass('active').siblings().removeClass('active');
   })
-</script>
+  </script>
+
 
 
 <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>

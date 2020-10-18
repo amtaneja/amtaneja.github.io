@@ -46,7 +46,7 @@
               <li ><a href="index.html" data-after="Home">Home</a></li>
               <li rel="one"><a href="about.html" data-after="About me">About me</a></li>
               <li rel="two"><a href="index.html#middle" data-after="Projects">Projects</a></li>
-              <li rel="three"><a href="https://www.instagram.com/aman.taneja/" data-after="Instagram">Instagram</a></li>
+              <li rel="three"><a href="https://www.instagram.com/aman.taneja/" target="_blank" data-after="Instagram">Instagram</a></li>
              
                   
             </ul>
@@ -68,8 +68,8 @@
 
        
         <div class="social">
-          <a href="https://www.facebook.com/aman.taneja.773"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://www.instagram.com/aman.taneja/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/aman.taneja.773" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/aman.taneja/" target="_blank"><i class="fab fa-instagram"></i></a>
           <a href=""><i class="fab fa-twitter"></i></a>
         </div>
 
@@ -149,9 +149,9 @@
               goal with the designing and website building aspects
             </p>
             <div class="footer-social">
-              <a href="https://www.facebook.com/aman.taneja.773"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.facebook.com/aman.taneja.773" target="_blank"><i class="fab fa-facebook-f"></i></a>
               <a href=""><i class="fab fa-twitter"></i></a>
-              <a href="https://www.instagram.com/aman.taneja/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.instagram.com/aman.taneja/" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
           <div class="single-footer">
@@ -199,7 +199,7 @@
               <li>
                 <a
                   href="https://goo.gl/maps/32eYEEbnUSot83rW7"
-                  ><i class="fas fa-map-marker-alt"></i>Sagar, India</a
+                  ><i class="fas fa-map-marker-alt" target="_blank"></i>Sagar, India</a
                 >
               </li>
 
@@ -223,21 +223,14 @@
 
   <script src="script.js"></script>
 
-  
+  /*-------------- form validation------------*/
   <script>
-  function validateName(){var e=document.getElementById("name").value;return 0==e.length?(alert("Name can't be blank"),!1):!!e.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)||(alert("Please enter name in correct format. Numbers and space after name is not allowed."),!1)}
-  function validateEmail(){var e=document.getElementById("email").value;return 0==e.length?(alert("Email can't be blank"),!1):!!e.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)||(alert("Please enter a correct email address"),!1)}
-  function validateForm(){return validateName()&&validateEmail()?submitted=!0:(alert("Form not submitted"),!1)}</script>
+    function validateName(){var e=document.getElementById("name").value;return 0==e.length?(alert("Name can't be blank"),!1):!!e.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)||(alert("Please enter name in correct format. Numbers and space after name is not allowed."),!1)}
+    function validateEmail(){var e=document.getElementById("email").value;return 0==e.length?(alert("Email can't be blank"),!1):!!e.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)||(alert("Please enter a correct email address"),!1)}
+    function validateForm(){return validateName()&&validateEmail()?submitted=!0:(alert("Form not submitted"),!1)}
+ </script>
   
-    
 
-  <script>
-    $(document).ready(function () {
-      $(".menu a").click(function () {
-        $(".toggler").prop("checked", false);
-      });
-    });
-  </script>
 
   
 </html>

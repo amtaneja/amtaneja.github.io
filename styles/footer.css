@@ -153,7 +153,13 @@
 
   .footer{
     margin-left: 3%;
+    
   }
+
+  .single-footer ul li a{
+  color: wheat;
+  }
+
   .footer-wave-box {
     display: none;
   }

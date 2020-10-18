@@ -78,7 +78,7 @@ body {
   }
   100% {
     opacity: 1;
-    transform: translateY(-230px);
+    transform: translateY(-215px);
   }
 }
 
@@ -317,6 +317,8 @@ html.is-animating .transition-fade {
 .middle {
   align-content: center;
   margin-left: 7%;
+  margin-bottom: 3%;
+  
 }
 
 .slideshow-container {
@@ -483,6 +485,7 @@ html.is-animating .transition-fade {
   width: 1000px;
   padding: 40px 0;
   margin-top: -33%;
+  
   
 }
 
