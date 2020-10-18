@@ -159,13 +159,14 @@ nav {
 }
 
 .cta h3 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.875rem;
-  letter-spacing: 1.7px;
+  letter-spacing: 1.8px;
   text-transform: none;
   font-family: Nunito;
   color: rgb(141, 138, 138);
   padding-top: 8%;
+  text-align: justify;
   
   
 }
