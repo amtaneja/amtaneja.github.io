@@ -166,6 +166,7 @@ nav {
   font-family: Nunito;
   color: rgb(141, 138, 138);
   padding-top: 8%;
+  justify-content: center;
   text-align: justify !important;
 }
 
