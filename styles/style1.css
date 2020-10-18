@@ -269,6 +269,8 @@ nav {
     text-align: justify !important;
   }
 
+ 
+
   .cover img {
     height: 75%;
     align-content: center;
@@ -561,7 +563,7 @@ a {
 
 .top {
   letter-spacing: 0.2rem;
-  margin-right: -0.7rem;
+  
 
   color: rgb(17, 17, 17) !important;
 }
