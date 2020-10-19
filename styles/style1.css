@@ -280,6 +280,10 @@ nav {
 }
 
 @media screen and (max-width: 660px) {
+
+  html {
+    overflow-y: hidden;
+  }
   a.contact-link {
     margin-left: -8%;
     margin-bottom: -7%;
