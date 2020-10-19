@@ -313,7 +313,7 @@ a {
   padding: 40px;
   box-sizing: border-box;
   font-family: Nunito;
-  
+  background-color: wheat;
 }
 
 .card .sliderText {
@@ -331,7 +331,7 @@ a {
   font-family: roboto;
   font-weight: 300;
   padding-left: 2%;
-  background-color: wheat;
+  
 }
 
 .card .content a {
