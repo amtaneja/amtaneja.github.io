@@ -358,11 +358,11 @@ a {
   border-radius: 2%;
 }
 .swiper-slide:nth-child(1) .sliderText {
-  background-image: url("");
+  
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  background-color: #de6262 → #ffb88c;
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);;
 }
 .swiper-slide:nth-child(2) .sliderText {
   background-image: url("");
