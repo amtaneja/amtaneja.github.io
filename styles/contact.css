@@ -375,7 +375,7 @@ a {
   background-size: cover;
 }
 .swiper-slide:nth-child(3) .sliderText {
-  background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
+  background-image: linear-gradient(45deg, #FF6B95 0%, #FFC796 100%);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
