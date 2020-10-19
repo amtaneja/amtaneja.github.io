@@ -365,7 +365,7 @@ a {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+  background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
 }
 .swiper-slide:nth-child(2) .sliderText {
   background-image: linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%);
@@ -374,7 +374,7 @@ a {
   background-size: cover;
 }
 .swiper-slide:nth-child(3) .sliderText {
-  background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+  background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
