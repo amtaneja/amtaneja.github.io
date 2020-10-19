@@ -300,6 +300,12 @@ a {
   margin-top: 2%;
 }
 
+.swiper-container img{
+  
+  margin-left: 40%;
+}
+
+
 .card {
   position: relative;
   background-color: rgb(228, 226, 226);
