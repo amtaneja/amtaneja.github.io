@@ -309,6 +309,7 @@ a {
   width: 400px;
   height: 400px;
   margin: auto;
+  border-radius: 2%;
 }
 
 .card .content {
