@@ -436,25 +436,7 @@ a {
   
 }
 
-@media screen and (max-width: 991px) {
-  .contact-box {
-    margin-top: -60%;
-    margin-left: -31%;
-    
-  }
-  social {
-    display: none;
-  }
 
-  .card , .card .content{
-    width:350px !important;
-  }
-
-.swiper-container{
- 
-}
-  
-}
 
 
 
