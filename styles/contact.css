@@ -25,6 +25,10 @@ body {
   z-index: 9999;
 }
 
+.scroll-fix{
+  overflow: hidden;
+}
+
 
 header {
   display: flex;
