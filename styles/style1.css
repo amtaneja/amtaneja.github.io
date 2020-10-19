@@ -290,6 +290,11 @@ nav {
     margin-right: -8%;
   }
 
+  .logo{
+    height: 80px;
+    width: 80px;
+  }
+
   .cover {
     display: none;
   }
