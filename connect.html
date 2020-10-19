@@ -24,6 +24,12 @@
 
 
     <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+    <script>
+      function lockScroll() {
+       $("body").toggleClass("fixedPosition");
+          
+     }
+   </script>
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -40,7 +46,7 @@
       <a href="index.html" class="logo">
         <img src="images/logo.png" alt="" width="100" height="100"
       /></a>
-      <input type="checkbox" class="toggler" />
+      <input type="checkbox" class="toggler" onclick="lockScroll();"/>
       <div class="hamburger">
         <div></div>
       </div>

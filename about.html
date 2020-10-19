@@ -23,7 +23,12 @@
     <link rel="stylesheet" type="text/css" href="styles/footer.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    
+    <script>
+      function lockScroll() {
+       $("body").toggleClass("fixedPosition");
+          
+     }
+   </script>
 
     
     <meta name="theme-color" content="#000000" />
@@ -34,7 +39,7 @@
       <a href="index.html" class="logo">
         <img src="images/logo.png" alt="" width="100" height="100"
       /></a>
-      <input type="checkbox" class="toggler" />
+      <input type="checkbox" class="toggler" onclick="lockScroll();"/>
       <div class="hamburger">
         <div></div>
       </div>
