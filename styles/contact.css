@@ -331,6 +331,7 @@ a {
   font-family: roboto;
   font-weight: 300;
   padding-left: 2%;
+  background-color: wheat;
 }
 
 .card .content a {
