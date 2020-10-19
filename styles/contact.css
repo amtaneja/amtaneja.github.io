@@ -309,7 +309,7 @@ a {
   width: 400px;
   height: 400px;
   margin: auto;
-  border-radius: 2%;
+  border-radius: 7%;
 }
 
 .card .content {
@@ -362,20 +362,22 @@ a {
   border-radius: 2%;
 }
 .swiper-slide:nth-child(1) .sliderText {
-  
+  border-radius: 7%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
+  background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
 }
 .swiper-slide:nth-child(2) .sliderText {
+  border-radius: 7%;
   background-image: linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
 .swiper-slide:nth-child(3) .sliderText {
-  background-image: linear-gradient(45deg, #FF6B95 0%, #FFC796 100%);
+  border-radius: 7%;
+  background-image: linear-gradient(to right,#ffafbd 0%, #ffc3a0 100%);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
