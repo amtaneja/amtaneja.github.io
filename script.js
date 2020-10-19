@@ -68,6 +68,7 @@ sr.reveal('.animate-bottom', {
   $(document).ready(function(){
     $(".menu a").click(function(){
         $(".toggler").prop("checked", false);
+        $(".toggler").prop("overflow-y", hidden);
     });
 });
 

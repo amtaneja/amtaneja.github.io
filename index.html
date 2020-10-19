@@ -15,6 +15,12 @@
     
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+      function lockScroll() {
+       $("body").toggleClass("fixedPosition");
+          
+     }
+   </script>
     
     
     <!-- Font Styles used -->
@@ -46,7 +52,7 @@
         <img src="images/logo.png" alt="" width="100px" height="100px"></div>
              
       
-      <input type="checkbox" class="toggler">
+      <input type="checkbox" class="toggler" onclick="lockScroll();">
           <div class="hamburger">
             <div></div>
           </div>

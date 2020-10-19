@@ -3,6 +3,11 @@
   margin-left: -1%;
 }
 
+.fixedPosition{
+  position: fixed;
+}
+
+
 .toggler {
   position: absolute;
   top: 0.5rem;
