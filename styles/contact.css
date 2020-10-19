@@ -362,7 +362,7 @@ a {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  background-color:  #eecda3 → #ef629f;
+  background-color: #de6262 → #ffb88c;
 }
 .swiper-slide:nth-child(2) .sliderText {
   background-image: url("");
