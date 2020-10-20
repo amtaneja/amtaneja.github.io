@@ -1,6 +1,4 @@
-html.has-scroll-smooth {
-  overflow: none;
-}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -13,7 +11,7 @@ html{
 }
 
 body {
-  width:100%;
+  width:102%;
   overflow-x: hidden;
   animation: transitionIn 1s;
 }
