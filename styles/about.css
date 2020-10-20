@@ -14,6 +14,19 @@ html{
 
 body {
   overflow-x: hidden;
+  animation: transitionIn 1s;
+}
+
+@keyframes transitionIn{
+  from{
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+
+  to{
+    opacity: 1;
+    transform: rotateX(0); 
+   }
 }
 
 .scroll i {
@@ -57,21 +70,12 @@ body {
   display: flex;
   min-height: fit-content;
   justify-content: flex-start;
-  animation: drop 2s ease;
+  
 }
 
 
 
-@keyframes drop {
-  0% {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(-215px);
-  }
-}
+
 
 
 .tags {
@@ -270,18 +274,8 @@ header {
   .text-zone {
     margin-top: -30%;
     width: fit-content;
-    animation: drop1 1s ease;
+    
   }
-
-  @keyframes drop1 {
-    0% {
-      opacity: 0;
-      transform: translateY(-10px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(-250px);
-    }
   }
 
   .text-zone p {
