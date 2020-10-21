@@ -213,13 +213,12 @@ header {
 .tagBall {
   height: 500px;
   position: relative;
-
+  
   z-index: 1;
 }
 
 .skill {
   margin-top: 3%;
-
   margin-left: 80%;
   display: flex;
 }

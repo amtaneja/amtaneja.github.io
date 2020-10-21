@@ -103,7 +103,7 @@ a {
 #contact {
   position: relative;
   margin-left: 33%;
-  margin-top: 24%;
+  margin-top: 25%;
   transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
@@ -294,7 +294,7 @@ a {
 }
 
 .middle{
-  margin-top: -15%;
+  margin-top: -17%;
   margin-bottom: 2%;
 }
 
@@ -309,12 +309,14 @@ a {
 
 .swiper-container {
   margin-top: 2%;
+  
 }
 
 .swiper-container img{
   
   margin-left: 44%;
   margin-top: 3%;
+ 
 }
 
 
@@ -324,7 +326,7 @@ a {
   width: 400px;
   height: 400px;
   margin: auto;
-  border-radius: 4%;
+  
 }
 
 .card .content {
@@ -342,6 +344,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .card .sliderText h3 {
