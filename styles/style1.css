@@ -126,7 +126,7 @@ nav {
   height: 100%;
   align-content: center;
   filter: drop-shadow(0px 5px 3px black);
-  
+
   z-index: -1;
 }
 
@@ -280,9 +280,6 @@ nav {
 }
 
 @media screen and (max-width: 660px) {
-
-  
-
   a.contact-link {
     margin-left: -8%;
     margin-bottom: -7%;
@@ -292,7 +289,6 @@ nav {
     margin-bottom: -7%;
     margin-right: -8%;
   }
-
 
   .cover {
     display: none;
@@ -453,32 +449,42 @@ a.contact-link {
   padding: 13px;
   border: 0 none;
   border-radius: 25px;
-  transition: all 0.2s cubic-bezier(0.3, 0, 0.5, 1) 0.2s;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
+
   text-decoration: none;
   z-index: 2;
 }
 
-a.contact-link::after {
-  border: 3px solid rgb(7, 7, 7);
-  animation: pulse 3s ease infinite;
+.circle-ripple {
+  background-color: rgba(15, 20, 30, 0.3);
+  width: 0.1em;
+  height: 0.1em;
+  border-radius: 30%;
+  animation: ripple 1s linear infinite;
+
+  z-index: -4;
+  margin-left: 12px;
+  margin-top: -12px;
 }
 
-@keyframes pulse {
+@keyframes ripple {
   0% {
-    opacity: 1;
-    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(15, 20, 30, 0.3), 0 0 0 1.5em rgba(15, 20, 30, 0.3),
+      0 0 0 2.5em rgba(15, 20, 30, 0.3);
   }
   100% {
-    opacity: 0;
-    transform: scale(1.4);
+    box-shadow: 0 0 0 0.5em rgba(15, 20, 30, 0.3),
+      0 0 0 1em rgba(15, 20, 30, 0.3), 0 0 0 2.5em rgba(15, 20, 30, 0.3);
   }
 }
 
-.contact-link i {
+.contact-link .fa-envelope {
   color: white;
-  font-size: 145%;
+  font-size: 135%;
+}
+
+.contact-link .msg {
+  margin-top: 10%;
+  margin-left: 3%;
 }
 
 a.contact-link:hover {
@@ -486,11 +492,6 @@ a.contact-link:hover {
   transition: 0.5s;
 }
 
-.message {
-  color: white;
-  font-size: 1.5rem;
-  margin-top: -20%;
-}
 
 [data-scroll] {
   transition: all 2s;
@@ -721,7 +722,6 @@ a {
   letter-spacing: 2px;
   font-family: Nunito;
   border-radius: 10px;
-
 }
 
 /*Animation--------*/
