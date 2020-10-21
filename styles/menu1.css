@@ -130,12 +130,12 @@
 }
 
 .menu #picture.one {
-  background: url(about.jpg);
+  background: url(images/about.jpg);
   background: cover;
 }
 
 .menu #picture.four {
-  background: url(contact.jpg);
+  background: url(images/contact.jpg);
   background-size: contain;
   background-position-y: 30%;
   background-position-x: 50%;
