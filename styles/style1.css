@@ -459,7 +459,7 @@ a.contact-link {
   width: 0.1em;
   height: 0.1em;
   border-radius: 30%;
-  animation: ripple 2s linear infinite;
+  animation: ripple 1s linear infinite;
 
   z-index: -4;
   margin-left: 12px;
