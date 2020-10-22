@@ -149,11 +149,11 @@ nav {
   line-height: 4rem;
   padding-top: -10px;
   padding-bottom: 18px;
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: -0.01em;
   color: #0f141e;
   margin-top: 30px;
-  font-family: Volkhov;
+  font-family: roboto;
 }
 
 .cta h3 {
