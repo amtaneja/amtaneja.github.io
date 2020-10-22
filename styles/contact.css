@@ -74,6 +74,11 @@ header {
   padding-left: 17px;
 }
 
+.scroll i:hover {
+  background: black;
+  transition: 0.5s;
+}
+
 
 
 a {
