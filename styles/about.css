@@ -11,7 +11,7 @@ html{
 }
 
 body {
-  width:102%;
+  width:100%;
   overflow-x: hidden;
   animation: transitionIn 1s;
 }
@@ -309,7 +309,7 @@ html.is-animating .transition-fade {
   position: relative;
   width: 92%;
   overflow: hidden;
-  margin-top: -3%;
+  margin-top: 2%;
 }
 .image-container {
   display: block;
@@ -762,3 +762,5 @@ html.is-animating .transition-fade {
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+
