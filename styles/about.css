@@ -47,15 +47,10 @@ body {
   transform: translate3d(0, 0, 0);
   align-items: center;
   font-size: 25px;
-
   color: white;
-
   opacity: 0;
-
   pointer-events: none;
-
   transition: opacity 0.3s ease-in-out;
-
   padding-top: 12px;
   padding-right: 17px;
   padding-bottom: 17px;
@@ -71,18 +66,11 @@ body {
   display: flex;
   min-height: fit-content;
   justify-content: flex-start;
-  
 }
-
-
-
-
-
 
 .tags {
   color: #5c5c5c;
   position: absolute;
-
   font-size: 18px;
   font-family: "La Belle Aurore", cursive;
 }
@@ -92,6 +80,7 @@ body {
   text-decoration: none;
   background-color: transparent;
 }
+
 .text-zone p a:hover {
   color: rgb(151, 150, 150);
 }
@@ -215,12 +204,11 @@ header {
 .tagBall {
   height: 500px;
   position: relative;
-  
   z-index: 1;
 }
 
 .skill {
-  margin-top: -3%;
+  margin-top: 2%;
   margin-left: 80%;
   display: flex;
 }
@@ -236,6 +224,7 @@ header {
   font-weight: bold;
   font-family: Nunito;
 }
+
 .tag:hover {
   border: 1px solid #666;
 }
@@ -250,11 +239,6 @@ header {
   letter-spacing: 0.4em;
   color: #878a8f;
 }
-.logo-container,
-.nav-links {
-  display: flex;
-  margin-top: 3%;
-}
 
 @media (max-width: 991px) {
   .skill {
@@ -262,7 +246,7 @@ header {
   }
 
   .skill {
-    margin-top: 140%;
+    margin-top: 130%;
 
     margin-left:47%;
   }
@@ -287,10 +271,7 @@ header {
     text-align: justify;
     margin-right: 7%;
   }
-
-  
-
-
+ 
 .transition-fade {
   transition: 0.4s;
   opacity: 1;
@@ -305,15 +286,13 @@ html.is-animating .transition-fade {
   align-content: center;
   margin-left: 7%;
   margin-bottom: 3%;
-
-  
 }
 
 .slideshow-container {
   position: relative;
   width: 92%;
   overflow: hidden;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 .image-container {
   display: block;
@@ -370,6 +349,7 @@ html.is-animating .transition-fade {
 .fade {
   animation: fade 0.3s ease-in-out;
 }
+
 @keyframes fade {
   0% {
     opacity: 0;
@@ -398,7 +378,7 @@ html.is-animating .transition-fade {
     width: 18px;
   }
   .slideshow-container {
-    margin-top: 20%;
+    margin-top: 5%;
     width: 95%;
     margin-left: -1%;
     align-content: center;
