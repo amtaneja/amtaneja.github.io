@@ -458,7 +458,7 @@ a.contact-link {
   height: 0.1em;
   border-radius: 30%;
   animation: ripple 2s linear infinite;
-
+  animation-delay: .6s;
   z-index: -4;
   margin-left: 12px;
   margin-top: -12px;
