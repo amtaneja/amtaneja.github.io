@@ -1,6 +1,4 @@
-html.has-scroll-smooth {
-  overflow: hidden;
-}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -29,11 +27,6 @@ body {
    }
 }
 
-.scroll-fix{
-  overflow: hidden;
-}
-
-
 header {
   display: flex;
   width: 95%;
@@ -59,15 +52,10 @@ header {
   transform: translate3d(0, 0, 0);
   align-items: center;
   font-size: 25px;
-
   color: white;
-
   opacity: 0;
-
   pointer-events: none;
-
   transition: opacity 0.3s ease-in-out;
-
   padding-top: 12px;
   padding-right: 17px;
   padding-bottom: 17px;
@@ -440,8 +428,7 @@ a {
     transform: translate(0, 0);
     width: 90%;
     height: 100vh;
-    box-sizing: border-box;
-   
+    box-sizing: border-box; 
   }
 
   .c-heading h1 {
@@ -461,7 +448,7 @@ a {
     margin-left: -31%;
     
   }
-  social {
+  .social {
     display: none;
   }
 
