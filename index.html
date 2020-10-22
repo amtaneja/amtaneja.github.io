@@ -19,9 +19,15 @@
     
   </head>
   
-  <body onload="loader()">
+  <body>
     <!--initial loader at the starting of webpage-->
-    <div id="loading"></div>
+    <div class="loading">
+      <div class="loader">
+        <div class="ripple"></div> 
+        <h5>WELCOME</h5>
+        <h1>Wait a bit</h1>
+      </div>
+    </div>
     <div id="cursor"></div>
     
     <div class="scroll"><i style="font-size:25px" class="fa" id="up">&#xf106;</i></div>
@@ -299,6 +305,11 @@
       $(this).addClass('active').siblings().removeClass('active');
   })
   </script>
+  <script>
+    setTimeout(function(){
+     $('.loading').fadeToggle();
+    },5000);
+      </script>
 
 <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
 <script src="script.js"></script>
