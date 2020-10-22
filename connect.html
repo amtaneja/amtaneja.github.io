@@ -7,16 +7,9 @@
     <link rel="shortcut icon" href="images/favicon.ico" />
 
     <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Volkhov:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel=stylesheet
-    href=https://use.fontawesome.com/releases/v5.6.3/css/all.css>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Volkhov:wght@700&display=swap" rel="stylesheet"/>
+    <link rel=stylesheet href=https://use.fontawesome.com/releases/v5.6.3/css/all.css>
 
     <link rel="stylesheet" type="text/css" href="styles/menu1.css" />
     <link rel="stylesheet" type="text/css" href="styles/contact.css" />
@@ -26,22 +19,16 @@
     <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-
-    
-
-    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <meta name="theme-color" content="#000000" />
   </head>
+
   <body id="top">
     <div id="cursor"></div>
     <header>
       <a href="index.html" class="logo">
-        <img src="images/logo.png" alt="" width="100" height="100"
-      /></a>
+        <img src="images/logo.png" alt="" width="100" height="100"/>
+      </a>
       <input type="checkbox" class="toggler"/>
       <div class="hamburger">
         <div></div>
@@ -55,9 +42,7 @@
               <li ><a href="index.html" data-after="Home">Home</a></li>
               <li rel="one"><a href="about.html" data-after="About me">About me</a></li>
               <li rel="two"><a href="index.html#middle" data-after="Projects">Projects</a></li>
-              <li rel="three"><a href="https://www.instagram.com/aman.taneja/" target="_blank" data-after="Instagram">Instagram</a></li>
-             
-                  
+              <li rel="three"><a href="https://www.instagram.com/aman.taneja/" target="_blank" data-after="Instagram">Instagram</a></li>     
             </ul>
           </div>
         </div>
@@ -69,13 +54,10 @@
     </div>
     
 
-    <main >
+    <main>
 
       <section id="contact">
         
-          
-
-       
         <div class="social">
           <a href="https://www.facebook.com/aman.taneja.773" target="_blank"><i class="fab fa-facebook-f"></i></a>
           <a href="https://www.instagram.com/aman.taneja/" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -93,8 +75,6 @@
             <input type="text" placeholder="Full Name" name="entry.30621622" required id="name" />
             <input type="text" placeholder="example@gmail.com" name="entry.1266318499" required id="email" />
             <textarea
-              
-              
               cols="30"
               rows="10"
               placeholder="Write Message"
@@ -173,9 +153,7 @@
                       Provide the details of your business requirement in the message section and 
                       I will provide you the best possible solution for its online appearance.
                     </p>
-                    
-                  </div>
-                  
+                  </div>  
                 </div>
                 <img src="images/swipe.png" alt="" height="30px" width="30px">
               </div>
@@ -190,17 +168,13 @@
                       What challenges are you facing? Just share your idea. 
                       I will provide you the IoT solution for your problems and try to implement automation for it.
                       
-                    </p>
-                    
+                    </p>  
                   </div>
                 </div>
               </div>
             </div>
           </div>
-       
-        </div>
-        
-      
+       </div>  
     </main>
 
     <footer class="footer-area">
@@ -283,8 +257,6 @@
     </footer>
   </body>
 
-  
-
   <script src="script.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
@@ -309,14 +281,10 @@
     });
   </script>
 
-
   <script>
     function validateName(){var e=document.getElementById("name").value;return 0==e.length?(alert("Name can't be blank"),!1):!!e.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)||(alert("Please enter name in correct format. Numbers and space after name is not allowed."),!1)}
     function validateEmail(){var e=document.getElementById("email").value;return 0==e.length?(alert("Email can't be blank"),!1):!!e.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)||(alert("Please enter a correct email address"),!1)}
     function validateForm(){return validateName()&&validateEmail()?submitted=!0:(alert("Form not submitted"),!1)}
  </script>
-  
 
-
-  
 </html>
