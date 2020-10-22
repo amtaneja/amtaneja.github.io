@@ -469,9 +469,10 @@ a {
     width:350px !important;
   }
 
-.swiper-container{
- 
-}
+  .scroll i {
+    margin-bottom: -7%;
+    margin-right: -8%;
+  }
   
 }
 

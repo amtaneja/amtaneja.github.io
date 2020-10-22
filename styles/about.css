@@ -276,6 +276,11 @@ header {
     width: fit-content;
     
   }
+
+  .scroll i {
+    margin-bottom: -7%;
+    margin-right: -8%;
+  }
   }
 
   .text-zone p {
@@ -283,11 +288,8 @@ header {
     margin-right: 7%;
   }
 
-  i {
-    margin-bottom: -7%;
-    margin-right: -8%;
-  }
-}
+  
+
 
 .transition-fade {
   transition: 0.4s;
