@@ -145,7 +145,7 @@ nav {
 }
 
 .intro-text h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   line-height: 4rem;
   padding-top: -10px;
   padding-bottom: 18px;
@@ -153,7 +153,7 @@ nav {
   letter-spacing: -0.01em;
   color: #0f141e;
   margin-top: 30px;
-  font-family: roboto;
+  font-family: Volkhov;
 }
 
 .cta h3 {
