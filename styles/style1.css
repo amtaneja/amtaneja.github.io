@@ -128,7 +128,7 @@ header {
   margin: auto;
   min-height: 90vh;
   align-items: center;
-  animation: drop 5s ease;
+  animation: drop 4s ease;
 }
 
 .cover {
