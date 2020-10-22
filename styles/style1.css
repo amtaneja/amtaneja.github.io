@@ -38,7 +38,6 @@ body {
 }
 
 .loader{
-  color: white;
   margin-top: 30%;
   margin-left: 2%;
 }
@@ -49,7 +48,7 @@ body {
   line-height: 1.25rem;
   font-weight: 100;
   letter-spacing: 0.4em;
-  color: #ffffff;
+  color: white;
   font-family:'roboto';
 }
 .loader h1{
@@ -59,7 +58,7 @@ body {
   padding-bottom: 18px;
   font-weight: 200;
   letter-spacing: -0.01em;
-  color: #ffffff;
+  color: white;
   font-family: 'roboto';
 }
 .loader .ripple {
@@ -129,7 +128,7 @@ header {
   margin: auto;
   min-height: 90vh;
   align-items: center;
-  animation: drop 2s ease;
+  animation: drop 5s ease;
 }
 
 .cover {
@@ -458,11 +457,10 @@ a.contact-link {
   width: 50px;
   height: 50px;
   left: 40px;
-  bottom: 30px;
+  bottom: 32px;
   padding: 13px;
   border: 0 none;
   border-radius: 25px;
-
   text-decoration: none;
   z-index: 2;
 }
@@ -476,7 +474,7 @@ a.contact-link {
   animation-delay: .6s;
   z-index: -4;
   margin-left: 12px;
-  margin-top: -12px;
+  margin-top: -14px;
 }
 
 @keyframes ripple {
