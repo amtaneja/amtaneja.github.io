@@ -15,6 +15,8 @@ anchor.forEach((anc) => {
     cursor.style.animationName = "";
   });
 });
+
+/*-----------animation on scroll-----------*/
 window.sr = ScrollReveal({ reset: true });
 sr.reveal(".animate-left", {
   origin: "left",
@@ -41,7 +43,7 @@ sr.reveal(".animate-bottom", {
   delay: 300,
 });
 
-
+/*-----------menu closed on back-----------*/
 $(document).ready(function () {
   $(".menu a").click(function () {
     $(".toggler").prop("checked", false);
@@ -49,7 +51,7 @@ $(document).ready(function () {
   });
 });
 
-
+/*-----------arrow up icon-----------*/
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(window).scrollTop() > 300) {
@@ -62,7 +64,7 @@ $(document).ready(function () {
     $("html").animate({ scrollTop: 0 }, 500);
   });
 });
-
+/*-----------logo reel-----------*/
 $(document).ready(function () {
   $(".customer-logos").slick({
     slidesToShow: 5,
