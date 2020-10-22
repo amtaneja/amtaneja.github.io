@@ -251,7 +251,7 @@ nav {
     font-weight: 700;
     letter-spacing: -0.01em;
     color: #0f141e;
-    font-family: Volkhov;
+    
   }
 
   .cta h3 {
@@ -405,18 +405,7 @@ span:before {
   --clr-gray-light: #b0bec5;
 }
 
-.project h1 {
-  font-size: 2rem;
-  line-height: 2rem;
 
-  padding-bottom: 20px;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  color: #0f141e;
-  margin-top: 20px;
-  font-family: Volkhov;
-  padding-left: 30px;
-}
 
 .parallax {
   /* The image used */
