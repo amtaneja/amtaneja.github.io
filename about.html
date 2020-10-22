@@ -29,7 +29,7 @@
           
      }
    </script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     
     <meta name="theme-color" content="#000000" />
   </head>
@@ -200,6 +200,49 @@
       </section>
     </main>
 
+    <div class="customer-logos">
+      <div class="slide">
+        <img
+          src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image1.png"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image2.png"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image3.png"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image4.png"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image5.png"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image6.png"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image7.png"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="https://raw.githubusercontent.com/solodev/infinite-carousel/master/images/image8.png"
+        />
+      </div>
+    </div>
+
     <footer class="footer-area">
       <div class="footer-wave-box">
         <div class="footer-wave footer-animation"></div>
@@ -322,7 +365,30 @@
   
 <script src="tagball.js"></script>
  
-
+<script>
+  $(document).ready(function(){
+$('.customer-logos').slick({
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 1000,
+  arrows: false,
+  dots: false,
+  pauseOnHover: false,
+  responsive: [{
+    breakpoint: 768,
+    settings: {
+      slidesToShow: 4
+    }
+  }, {
+    breakpoint: 520,
+    settings: {
+      slidesToShow: 3
+    }
+  }]
+});
+});
+</script>
 
 
 
