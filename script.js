@@ -227,3 +227,9 @@ $(document).ready(function () {
  $(document).ready(function () {
   $(".tagBall").cloudTag({ ballSize: 150 });
 });
+
+/*---------loading animation-----------*/
+
+setTimeout(function(){
+ $('.loading').fadeToggle();
+},1800);

@@ -12,19 +12,7 @@ html{
 
 body {
   overflow-x: hidden;
-  animation: transitionIn 1s;
-}
-
-@keyframes transitionIn{
-  from{
-    opacity: 0;
-    transform: translateY(-80px);
-  }
-
-  to{
-    opacity: 1;
-    transform: rotateX(0); 
-   }
+  
 }
 
 header {
@@ -69,6 +57,7 @@ header {
 
 
 
+
 a {
   text-decoration: none;
 }
@@ -110,6 +99,7 @@ a {
   align-items: center;
   background-color: #ffffff;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  animation: drop 2.5s ease-in;
 }
 
 .social a:hover {
@@ -138,6 +128,7 @@ a {
   box-shadow: 2px 0px 30px rgba(0, 0, 0, 0.1);
   margin-top: -1%;
   margin-left: 0%;
+  animation: drop 2.5s ease-in;
 }
 
 
@@ -223,6 +214,7 @@ a {
 .map {
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
   border: 2px solid #a7a3a3;
+  animation: drop 2.5s ease-in;
 }
 
 .letters {
@@ -460,6 +452,10 @@ a {
     margin-bottom: -7%;
     margin-right: -8%;
   }
+
+  .loader{
+    margin-top: 80%;
+   }
   
 }
 
