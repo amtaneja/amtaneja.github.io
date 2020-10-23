@@ -453,7 +453,7 @@ color: rgb(84, 132, 223);
   
 }
 .loader h1{
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 4rem;
   line-height: 4rem;
   padding-bottom: 18px;
