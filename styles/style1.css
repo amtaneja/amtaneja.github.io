@@ -72,8 +72,8 @@ header {
 .presentation {
   display: flex;
   flex-direction: row;
-  width: 95%;
-  margin: auto;
+  width: 100%;
+  padding:2rem;
   min-height: 90vh;
   align-items: center;
   animation: drop 2.5s ease-in;
@@ -202,7 +202,7 @@ header {
   }
 
   .intro-text h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 2rem;
     padding-bottom: 18px;
     font-weight: 700;
@@ -222,8 +222,9 @@ header {
   }
 
   .cover img {
-    height: 75%;
+    height: 73%;
     align-content: center;
+    width: 100%;
   }
   .small-circle,
   .medium-circle,
@@ -234,6 +235,10 @@ header {
 }
 
 @media screen and (max-width: 991px) {
+
+  .presentation{
+    padding:8px;
+  }
   a.contact-link {
     margin-left: -8%;
     margin-bottom: -7%;
@@ -249,7 +254,7 @@ header {
   }
 
   .introduction {
-    margin-top: 105%;
+    margin-top: 95%;
   }
 
   .introduction h5 {
