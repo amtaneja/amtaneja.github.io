@@ -502,3 +502,7 @@ color: rgb(84, 132, 223);
      font-size: 3rem;
    }
 }
+/*-----------------*/
+.fixedPosition{
+  position: fixed;
+}

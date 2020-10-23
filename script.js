@@ -232,4 +232,10 @@ $(document).ready(function () {
 
 setTimeout(function(){
  $('.loading').fadeToggle();
-},1800);
+} ,1800);
+
+/*---------fixed menu-----------*/
+function lockScroll() {
+  $("body").toggleClass("fixedPosition");
+     
+}
