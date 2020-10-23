@@ -233,7 +233,7 @@ header {
   }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 991px) {
   a.contact-link {
     margin-left: -8%;
     margin-bottom: -7%;
@@ -249,7 +249,7 @@ header {
   }
 
   .introduction {
-    margin-top: 68%;
+    margin-top: 105%;
   }
 
   .introduction h5 {
