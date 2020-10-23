@@ -236,6 +236,5 @@ setTimeout(function(){
 
 /*---------fixed menu-----------*/
 function lockScroll() {
-  $("body").toggleClass("fixedPosition");
-     
+  $("body").toggleClass("fixedPosition");    
 }
