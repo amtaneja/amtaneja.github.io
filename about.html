@@ -323,7 +323,9 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
     <script src="script.js"></script>
 
     <script>
@@ -503,6 +505,34 @@
       /*---------------tag ball------------*/
       $(document).ready(function () {
         $(".tagBall").cloudTag({ ballSize: 150 });
+      });
+    </script>
+    <script>
+      /*-----------logo reel-----------*/
+      $(document).ready(function () {
+        $(".customer-logos").slick({
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1000,
+          arrows: false,
+          dots: false,
+          pauseOnHover: false,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 4,
+              },
+            },
+            {
+              breakpoint: 520,
+              settings: {
+                slidesToShow: 3,
+              },
+            },
+          ],
+        });
       });
     </script>
   </body>
