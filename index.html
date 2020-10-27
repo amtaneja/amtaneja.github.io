@@ -278,11 +278,6 @@
 
  
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script>
-  var preloader  = document.getElementById('loading');
-    function loader(){
-      preloader.style.display ='none';
-    }</script>
   
   <script>
     const checkpoint = 300;
@@ -304,6 +299,25 @@
 
       $(this).addClass('active').siblings().removeClass('active');
   })
+  </script>
+  <script>
+    const cursor = document.querySelector("#cursor"),
+  anchor = document.querySelectorAll("a");
+window.addEventListener("mousemove", (e) => {
+  let x = e.pageX,
+    y = e.pageY;
+  (cursor.style.left = `${x}px`), (cursor.style.top = `${y}px`);
+});
+anchor.forEach((anc) => {
+  anc.addEventListener("mouseover", () => {
+    (cursor.style.transform = "scale(10)"),
+      (cursor.style.animationName = "borderAnim");
+  });
+  anc.addEventListener("mouseleave", () => {
+    cursor.style.transform = "";
+    cursor.style.animationName = "";
+  });
+});
   </script>
 
 
