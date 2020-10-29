@@ -227,9 +227,7 @@ header {
 }
 
 @media screen and (max-width: 660px) {
-    .presentation {
-        padding: 6px;
-    }
+    .presentation {}
     a.contact-link {
         margin-left: -8%;
         margin-bottom: -7%;
