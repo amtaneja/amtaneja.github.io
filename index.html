@@ -1,328 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EWE29KX4L"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-1EWE29KX4L');
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Aman Taneja</title>
     <link rel="shortcut icon" href="images/favicon.ico">
-    <!-- main stylesheet --> 
+    <!-- main stylesheet -->
     <link rel="stylesheet" href="styles/style1.css" />
     <!-- menu button and overlay styles-->
-    <link rel="stylesheet" type="text/css" href="styles/menu1.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/menu1.css" />
     <link rel=stylesheet href=https://use.fontawesome.com/releases/v5.6.3/css/all.css>
     <!-- Font Styles used -->
     <link href="https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Volkhov:wght@700&display=swap" rel="stylesheet"/>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Volkhov:wght@700&display=swap" rel="stylesheet" />
+
     <meta name=theme-color content=#000000>
-    
-  </head>
-  
-  <body>
+
+</head>
+
+<body>
     <!--initial loader at the starting of webpage-->
     <div class="loading">
-      <div class="loader">
-        <div class="ripple"></div> 
-        <h5>WELCOME</h5>
-        <h1>Wait a bit</h1>
-      </div>
+        <div class="loader">
+            <div class="ripple"></div>
+            <h5>WELCOME</h5>
+            <h1>Wait a bit</h1>
+        </div>
     </div>
     <div id="cursor"></div>
-    
+
     <div class="scroll"><i style="font-size:25px" class="fa" id="up">&#xf106;</i></div>
-    
-    
+
+
     <a href="connect.html" class="contact-link internal">
-      <div class="msg"><i class="fas fa-envelope"></i></div>
-      <div class="circle-ripple"></div> 
+        <div class="msg"><i class="fas fa-envelope"></i></div>
+        <div class="circle-ripple"></div>
     </a>
-      
-   
+
+
     <header>
-      <div class=logo>
-        <img src="images/logo.png" alt="" width="100px" height="100px"/>
-      </div>
-             
-      
-      <input type="checkbox" class="toggler" onclick="lockScroll();">
-          <div class="hamburger">
+        <div class=logo>
+            <img src="images/logo.png" alt="" width="100px" height="100px" />
+        </div>
+
+
+        <input type="checkbox" class="toggler" onclick="lockScroll();">
+        <div class="hamburger">
             <div></div>
-          </div>
-          <div class="menu">
+        </div>
+        <div class="menu">
             <div>
-              
-              <div>
-                <div id="picture"></div>
-                <h5 style="color:rgb(218, 214, 214);">MENU</h5>
-                <ul>
-                  
-                  <li rel="one"><a href="about.html" data-after="About me">About me</a></li>
-                  <li rel="two"><a href="#middle" data-after="Projects">Projects</a></li>
-                  <li rel="three"><a href="https://www.instagram.com/aman.taneja/" target="_blank" data-after="Instagram">Instagram</a></li>
-                  <li rel="four"><a href="connect.html" data-after="Contact">Contact</a></li>
-                  
-                </ul>
-              </div>
+
+                <div>
+                    <div id="picture"></div>
+                    <h5 style="color:rgb(218, 214, 214);">MENU</h5>
+                    <ul>
+
+                        <li rel="one"><a href="about.html" data-after="About me">About me</a></li>
+                        <li rel="two"><a href="#middle" data-after="Projects">Projects</a></li>
+                        <li rel="three"><a href="https://www.instagram.com/aman.taneja/" target="_blank" data-after="Instagram">Instagram</a></li>
+                        <li rel="four"><a href="connect.html" data-after="Contact">Contact</a></li>
+
+                    </ul>
+                </div>
             </div>
-          </div>
-              
+        </div>
+
     </header>
 
-    
-      
-      
 
-    <main class="top" >
 
-      <section class="presentation">
-        <div class="introduction">
-          <h5>AMAN TANEJA</h5>
-          
 
-          <div class="cta">
-            <div class="intro-text">
-              <h1><span class="intro"></span></h1>
+
+    <main class="top">
+
+        <section class="presentation">
+            <div class="introduction">
+                <h5>AMAN TANEJA</h5>
+
+
+                <div class="cta">
+                    <div class="intro-text">
+                        <h1><span class="intro"></span></h1>
+                    </div>
+                    <h3 class="header light">
+                        <p>
+                            I have worked with one of the biggest IT companies in India for the past 2 years. Now I aspire to work for startups and help them add value to their goals. I turn your requirements into CMS-ified and eCommerce-ified websites - on time and on budget.
+                        </p>
+                    </h3>
+                    <nav class="links">
+                        <h4><a href="#middle">View Projects</a></h4>
+                        <h6>or</h6>
+                        <h4><a href="about.html">Read About Me</a></h4>
+
+                    </nav>
+                </div>
             </div>
-            <h3 class="header light">
-              <p>
-                I have worked with one of the biggest IT companies in India for the past 2 years. 
-                Now I aspire to work for startups and help them add value to their goals. I turn your requirements into CMS-ified and 
-                eCommerce-ified websites - on time and on budget.
-              </p>
-            </h3>
-            <nav class="links">
-            <h4><a href="#middle">View Projects</a></h4><h6>or</h6><h4><a href="about.html">Read About Me</a></h4>
-            
-          </nav>
-          </div>
-          </div>
+            </div>
+            <div class="cover">
+                <img src="images/bg_home.png" alt="myimage" />
+            </div>
+
+        </section>
+        <div class="background">
+            <img class="big-circle" src="images/big-eclipse.svg" alt="" />
+            <img class="medium-circle" src="images/mid-eclipse.svg" alt="" />
+            <img class="small-circle" src="images/small-eclipse.svg" alt="" />
         </div>
-        <div class="cover">
-          <img src="images/bg_home.png" alt="myimage" />
-        </div>
-        
-      </section>
-      <div class="background">
-        <img class="big-circle" src="images/big-eclipse.svg" alt="" />
-        <img class="medium-circle" src="images/mid-eclipse.svg" alt="" />
-        <img class="small-circle" src="images/small-eclipse.svg" alt="" />
-        </div>
-      
+
     </main>
 
-   <section class="parallax" id="middle">
-     <div class="container">
-      <h1 class="headline headline-dark" style="font-family: nunito;"id="mid">CASE STUDIES:</h1>
-        <div class="info">
-          
-         <div class="description padding-right animate-left">
-           <div class="global-headline">
-             <h2 class="sub-headline">
-               Manyavar Indore
-             </h2>
-             <h1 class="headline headline-dark">Freelance Project</h1>
-             <div class="asterisk"><i class="fas fa-asterisk"></i></div>
-           </div>
-           <p>Developed mobile friendly fully responsive website for my freelance project with Manyavar Indore.
-              Website includes various features like advance form submission 
-              with instant notification on email account using Google-Suite.
-           </p>
-           <a href="https://manyavarindore.netlify.app" class="btn body-btn" target="_blank">Check It Out</a>
-         </div>
-         <div class="info-image animate-right">
-           <img src="images/macdisplay.jpg" alt="">
-         </div>
-       </div>
-     </div> 
+    <section class="parallax" id="middle">
+        <div class="container">
+            <h1 class="headline headline-dark" style="font-family: nunito;" id="mid">CASE STUDIES:</h1>
+            <div class="info">
 
-   </section>
-
-   <section class="tasteful-recipes between">
-     <div class="container">
-      <div class="global-headline">
-        <div class="animate-top">
-          <h2 class="sub-headline">
-            Responsive
-          </h2>
+                <div class="description padding-right animate-left">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            Manyavar Indore
+                        </h2>
+                        <h1 class="headline headline-dark">Freelance Project</h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>Developed mobile friendly fully responsive website for my freelance project with Manyavar Indore. Website includes various features like advance form submission with instant notification on email account using Google-Suite.
+                    </p>
+                    <a href="https://manyavarindore.netlify.app" class="btn body-btn" target="_blank">Check It Out</a>
+                </div>
+                <div class="info-image animate-right">
+                    <img src="images/macdisplay.jpg" alt="">
+                </div>
+            </div>
         </div>
-        <div class="animate-bottom">
-          <h1 class="headline">Mobile Version</h1>
-        </div>
-       
-        
-      </div>
-     </div>
-   </section>
 
-   <section class="discover-our-menu">
-     <div class="container">
-       <div class="info">
-         <div class="image-group padding-right">
-           <img src="images/pi.gif" alt="" class="animate-left" >
-           <img src="images/esp.webp" alt=""  class="animate-right">
-           <img src="images/py.jpg" alt="" class="animate-left" >
-           <img src="images/analytics.gif" alt=""class="animate-right" >
-         </div>
-         
-         <div class="description animate-right">
-          <div class="global-headline">
-            <h2 class="sub-headline">
-              Sensor Data analytics
-            </h2>
-            <h1 class="headline headline-dark">IoT Project</h1>
-            <div class="asterisk"><i class="fas fa-asterisk"></i></div>
-          </div>
-          <p>This project does Sensor Data Analytics and controlled action over cloud. It includes ESP module to 
-            capture the sensor data and send it to cloud. After analysing this data, 
-            controlled action will be taken like switching on and off any appliances. Here raspberry pi has been used as a local cloud.</p>
-            <a href="" class="btn body-btn" target="_blank" >Check It Out</a>
-         </div>
-       </div>
-     </div>
-   </section>
+    </section>
 
-   <section class="perfect-blend between">
-    <div class="container">
-     <div class="global-headline">
-       <div class="animate-top">
-         <h2 class="sub-headline">
-           Neural Network for handWriting analysis 
-         </h2>
-       </div>
-       <div class="animate-bottom">
-         <h1 class="headline ">Coming Soon</h1>
-       </div> 
-     </div>
-    </div>
-  </section>
+    <section class="tasteful-recipes between">
+        <div class="container">
+            <div class="global-headline">
+                <div class="animate-top">
+                    <h2 class="sub-headline">
+                        Responsive
+                    </h2>
+                </div>
+                <div class="animate-bottom">
+                    <h1 class="headline">Mobile Version</h1>
+                </div>
 
-  <section class="culinary-delight">
-    <div class="container">
-      <div class="info">
-        <div class="description padding-right animate-left">
-          <div class="global-headline">
-            <h2 class="sub-headline">
-              Water Level Indicator
-            </h2>
-            <h1 class="headline headline-dark">IoT Project</h1>
-            <div class="asterisk"><i class="fas fa-asterisk"></i></div>
-          </div>
-          <p>Smart water level indicator system using flutter and firebase shows water level for the domestic water tank. 
-            User can see the water level in mobile app in perecntage format. It reduces the water wastage by 
-            automatically turning off the pump once water level reaches certain percentage set by the user.</p>
-          <a href="" class="btn body-btn" target="_blank">Check It Out</a>
+
+            </div>
         </div>
-        <div class="image-group">
-          <img  class="animate-top" src="images/firebase.png" alt="" >
-          <img  class="animate-bottom" src="images/flutter.png" alt="" >
+    </section>
+
+    <section class="discover-our-menu">
+        <div class="container">
+            <div class="info">
+                <div class="image-group padding-right">
+                    <img src="images/pi.gif" alt="" class="animate-left">
+                    <img src="images/esp.webp" alt="" class="animate-right">
+                    <img src="images/py.jpg" alt="" class="animate-left">
+                    <img src="images/analytics.gif" alt="" class="animate-right">
+                </div>
+
+                <div class="description animate-right">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            Sensor Data analytics
+                        </h2>
+                        <h1 class="headline headline-dark">IoT Project</h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>This project does Sensor Data Analytics and controlled action over cloud. It includes ESP module to capture the sensor data and send it to cloud. After analysing this data, controlled action will be taken like switching on and off
+                        any appliances. Here raspberry pi has been used as a local cloud.</p>
+                    <a href="" class="btn body-btn" target="_blank">Check It Out</a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div> 
-  </section>
-  
-   <footer class=footer-area >
-    <div id="cursor1"></div>
-    <div class=footer-wave-box>
-    <div class="footer-wave footer-animation"></div>
-    </div>
-    <div class=main>
-    <div class=footer>
-    <div class=single-footer>
-    <h4>about me</h4>
-    <p>Over the past 2 years, I’ve worked with one of the biggest IT company in india as a system engineer and now i am looking for the opportunites to work with startups and companies to reach their goal with the designing and website building aspects</p>
-    <div class=footer-social>
-      <a href="https://www.facebook.com/aman.taneja.773" target="_blank"><i class="fab fa-facebook-f"></i></a>
-      <a href=""><i class="fab fa-twitter"></i></a>
-      <a href="https://www.instagram.com/aman.taneja/" target="_blank"><i class="fab fa-instagram"></i></a>
-    </div>
-    </div>
-    <div class=single-footer>
-    <h4>main menu</h4>
-    <ul>
-    <li><a href=#top><i class="fas fa-chevron-right"></i> Home</a></li>
-    <li><a href="about.html"><i class="fas fa-chevron-right"></i> About me</a></li>
-    <li><a href="#middle"><i class="fas fa-chevron-right"></i> Projects</a></li>
-    <li><a href="connect.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
-    
-    </ul>
-    </div>
-    <div class=single-footer>
-    <h4>quick links</h4>
-    <ul>
-    <li><a href=""><i class="fas fa-chevron-right"></i> Privacy policy</a></li>
-    <li><a href=""><i class="fas fa-chevron-right"></i> Terms & Conditions</a></li>
-    <li><a href=""><i class="fas fa-chevron-right"></i> Disclaimer</a></li>
-    
-    </ul>
-    </div>
-    <div class=single-footer>
-    <h4>contact</h4>
-    <ul>
-    <li><a href="https://goo.gl/maps/32eYEEbnUSot83rW7" target="_blank"><i class="fas fa-map-marker-alt"></i>Sagar, India</a></li>
-    
-    <li><a href=mailto:amantaneja3105@gmail.com><i class="far fa-envelope"></i> amantaneja3105@gmail.com</a></li>
-    
-    </ul>
-    </div>
-    </div>
-    </div>
-    <div class=copy>
-    <p>&copy; 2020 all rights reserved</p>
-    <p>Developed by Aman Taneja</p>
-    </div>
-    
+    </section>
+
+    <section class="perfect-blend between">
+        <div class="container">
+            <div class="global-headline">
+                <div class="animate-top">
+                    <h2 class="sub-headline">
+                        Neural Network for handWriting analysis
+                    </h2>
+                </div>
+                <div class="animate-bottom">
+                    <h1 class="headline ">Coming Soon</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="culinary-delight">
+        <div class="container">
+            <div class="info">
+                <div class="description padding-right animate-left">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            Water Level Indicator
+                        </h2>
+                        <h1 class="headline headline-dark">IoT Project</h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>Smart water level indicator system using flutter and firebase shows water level for the domestic water tank. User can see the water level in mobile app in perecntage format. It reduces the water wastage by automatically turning off
+                        the pump once water level reaches certain percentage set by the user.</p>
+                    <a href="" class="btn body-btn" target="_blank">Check It Out</a>
+                </div>
+                <div class="image-group">
+                    <img class="animate-top" src="images/firebase.png" alt="">
+                    <img class="animate-bottom" src="images/flutter.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class=footer-area>
+        <div id="cursor1"></div>
+        <div class=footer-wave-box>
+            <div class="footer-wave footer-animation"></div>
+        </div>
+        <div class=main>
+            <div class=footer>
+                <div class=single-footer>
+                    <h4>about me</h4>
+                    <p>Over the past 2 years, I’ve worked with one of the biggest IT company in india as a system engineer and now i am looking for the opportunites to work with startups and companies to reach their goal with the designing and website building
+                        aspects
+                    </p>
+                    <div class=footer-social>
+                        <a href="https://www.facebook.com/aman.taneja.773" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/aman.taneja/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class=single-footer>
+                    <h4>main menu</h4>
+                    <ul>
+                        <li><a href=#top><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About me</a></li>
+                        <li><a href="#middle"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                        <li><a href="connect.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+
+                    </ul>
+                </div>
+                <div class=single-footer>
+                    <h4>quick links</h4>
+                    <ul>
+                        <li><a href=""><i class="fas fa-chevron-right"></i> Privacy policy</a></li>
+                        <li><a href=""><i class="fas fa-chevron-right"></i> Terms & Conditions</a></li>
+                        <li><a href=""><i class="fas fa-chevron-right"></i> Disclaimer</a></li>
+
+                    </ul>
+                </div>
+                <div class=single-footer>
+                    <h4>contact</h4>
+                    <ul>
+                        <li><a href="https://goo.gl/maps/32eYEEbnUSot83rW7" target="_blank"><i class="fas fa-map-marker-alt"></i>Sagar, India</a></li>
+
+                        <li><a href=mailto:amantaneja3105@gmail.com><i class="far fa-envelope"></i> amantaneja3105@gmail.com</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class=copy>
+            <p>&copy; 2020 all rights reserved</p>
+            <p>Developed by Aman Taneja</p>
+        </div>
+
     </footer>
-    
- 
-
- 
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  
-  <script>
-    const checkpoint = 300;
-    window.addEventListener("scroll", () => {
-    const currentScroll = window.pageYOffset;
-    if (currentScroll <= checkpoint) {
-      opacity = 1 - currentScroll / checkpoint;
-    } else {
-      opacity = 0;
-    }
-    document.querySelector(".top").style.opacity = opacity;
-  });
-  </script>
-
-  <script>
-    $('ul li').hover(function(){
-    $('#picture').removeClass().addClass(
-      $(this).attr('rel'));
-
-      $(this).addClass('active').siblings().removeClass('active');
-  })
-  </script>
-  <script>
-    const cursor = document.querySelector("#cursor"),
-  anchor = document.querySelectorAll("a");
-window.addEventListener("mousemove", (e) => {
-  let x = e.pageX,
-    y = e.pageY;
-  (cursor.style.left = `${x}px`), (cursor.style.top = `${y}px`);
-});
-anchor.forEach((anc) => {
-  anc.addEventListener("mouseover", () => {
-    (cursor.style.transform = "scale(10)"),
-      (cursor.style.animationName = "borderAnim");
-  });
-  anc.addEventListener("mouseleave", () => {
-    cursor.style.transform = "";
-    cursor.style.animationName = "";
-  });
-});
-  </script>
 
 
-<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
-<script src="script.js"></script>
-  
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script>
+        const checkpoint = 300;
+        window.addEventListener("scroll", () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll <= checkpoint) {
+                opacity = 1 - currentScroll / checkpoint;
+            } else {
+                opacity = 0;
+            }
+            document.querySelector(".top").style.opacity = opacity;
+        });
+    </script>
+
+    <script>
+        $('ul li').hover(function() {
+            $('#picture').removeClass().addClass(
+                $(this).attr('rel'));
+
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+    </script>
+    <script>
+        const cursor = document.querySelector("#cursor"),
+            anchor = document.querySelectorAll("a");
+        window.addEventListener("mousemove", (e) => {
+            let x = e.pageX,
+                y = e.pageY;
+            (cursor.style.left = `${x}px`), (cursor.style.top = `${y}px`);
+        });
+        anchor.forEach((anc) => {
+            anc.addEventListener("mouseover", () => {
+                (cursor.style.transform = "scale(10)"),
+                (cursor.style.animationName = "borderAnim");
+            });
+            anc.addEventListener("mouseleave", () => {
+                cursor.style.transform = "";
+                cursor.style.animationName = "";
+            });
+        });
+    </script>
+
+
+    <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+
 </body>
+
 </html>
