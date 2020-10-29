@@ -258,6 +258,7 @@ header {
         background-size: cover;
         background-position-x: center;
         background-position-y: 7px;
+        margin-top: -2%;
     }
     #cursor {
         display: none;
