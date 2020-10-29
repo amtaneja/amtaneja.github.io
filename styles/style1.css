@@ -31,7 +31,7 @@ body {
 
 header {
     display: flex;
-    width: 92%;
+    width: 94%;
     margin: auto;
     height: 7vh;
     align-items: center;
@@ -227,7 +227,9 @@ header {
 }
 
 @media screen and (max-width: 660px) {
-    .presentation {}
+    .presentation {
+        padding: 8px;
+    }
     a.contact-link {
         margin-left: -8%;
         margin-bottom: -7%;
