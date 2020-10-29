@@ -20,7 +20,6 @@ html {
 
 body {
     overflow-x: hidden;
-    width: 100%;
 }
 
 *::before,
@@ -229,7 +228,7 @@ header {
 
 @media screen and (max-width: 660px) {
     .presentation {
-        padding: 8px;
+        padding: 6px;
     }
     a.contact-link {
         margin-left: -8%;
