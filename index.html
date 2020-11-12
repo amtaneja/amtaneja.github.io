@@ -46,7 +46,7 @@
     <div class="scroll"><i style="font-size:25px" class="fa" id="up">&#xf106;</i></div>
 
 
-    <a href="connect.html" class="contact-link internal">
+    <a href="contact" class="contact-link internal">
         <div class="msg"><i class="fas fa-envelope"></i></div>
         <div class="circle-ripple"></div>
     </a>
@@ -70,10 +70,10 @@
                     <h5 style="color:rgb(218, 214, 214);">MENU</h5>
                     <ul>
 
-                        <li rel="one"><a href="about.html" data-after="About me">About me</a></li>
+                        <li rel="one"><a href="about" data-after="About me">About me</a></li>
                         <li rel="two"><a href="#middle" data-after="Projects">Projects</a></li>
                         <li rel="three"><a href="https://www.instagram.com/aman.taneja/" target="_blank" data-after="Instagram">Instagram</a></li>
-                        <li rel="four"><a href="connect.html" data-after="Contact">Contact</a></li>
+                        <li rel="four"><a href="contact" data-after="Contact">Contact</a></li>
 
                     </ul>
                 </div>
@@ -105,7 +105,7 @@
                     <nav class="links">
                         <h4><a href="#middle">View Projects</a></h4>
                         <h6>or</h6>
-                        <h4><a href="about.html">Read About Me</a></h4>
+                        <h4><a href="about">Read About Me</a></h4>
 
                     </nav>
                 </div>
@@ -142,7 +142,8 @@
                     <a href="https://manyavarindore.netlify.app" class="btn body-btn" target="_blank">Check It Out</a>
                 </div>
                 <div class="info-image animate-right">
-                    <img src="images/macdisplay.jpg" alt="">
+                    <div class="wrapper"></div>
+
                 </div>
             </div>
         </div>
@@ -220,14 +221,46 @@
                     </div>
                     <p>Smart water level indicator system using flutter and firebase shows water level for the domestic water tank. User can see the water level in mobile app in percentage format. It reduces the water wastage by automatically turning off
                         the pump once water level reaches certain percentage set by the user.</p>
-                    <a href="" class="btn body-btn" target="_blank">Check It Out</a>
+
                 </div>
                 <div class="image-group">
-                    <img class="animate-top" src="images/firebase.png" alt="">
-                    <img class="animate-bottom" src="images/flutter.png" alt="">
+                    <img class="" src="images/firebase.png" alt="">
+                    <img class="" src="images/flutter.png" alt="">
                 </div>
             </div>
         </div>
+    </section>
+    <section id="app">
+
+        <div class="container">
+            <div class="info">
+                <div class="image-group animate-left">
+
+                    <div class="phone">
+                        <img src="images/image2.png" alt="">
+                        <img src="images/image2.png" alt="">
+                        <img src="images/image2.png" alt="">
+                        <img src="images/image2.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="description padding-right animate-right">
+                    <div class="apphead">
+                        <h1>
+                            Responsive
+                            <div class="inside">View</div>.
+                        </h1>
+                        <h3>This is how website looks in smartphones.</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section>
+
     </section>
 
     <footer class=footer-area>
@@ -252,9 +285,9 @@
                     <h4>main menu</h4>
                     <ul>
                         <li><a href=#top><i class="fas fa-chevron-right"></i> Home</a></li>
-                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About me</a></li>
+                        <li><a href="about"><i class="fas fa-chevron-right"></i> About me</a></li>
                         <li><a href="#middle"><i class="fas fa-chevron-right"></i> Projects</a></li>
-                        <li><a href="connect.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        <li><a href="contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
 
                     </ul>
                 </div>
@@ -290,14 +323,30 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
+    <!-- library needed -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+    <script src="hover-effect.umd.js"></script>
     <script>
-        const checkpoint = 300;
+        var myAnimation = new hoverEffect({
+            parent: document.querySelector('.wrapper'),
+            crossOrigin: null,
+            intensity: 0.3,
+            image1: 'images/1.jpg',
+            image2: 'images/4.jpg',
+            displacementImage: 'images/4.png'
+        });
+    </script>
+
+    <script>
+        const checkpoint = 700;
         window.addEventListener("scroll", () => {
             const currentScroll = window.pageYOffset;
             if (currentScroll <= checkpoint) {
                 opacity = 1 - currentScroll / checkpoint;
             } else {
-                opacity = 0;
+                opacity = 0.8;
             }
             document.querySelector(".top").style.opacity = opacity;
         });
@@ -331,7 +380,7 @@
         });
     </script>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
     <script src="script.js"></script>
 
