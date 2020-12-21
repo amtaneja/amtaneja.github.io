@@ -4,6 +4,16 @@ tl.to(".loader", { y: "0%", duration: 0.7, stagger: 0.25 });
 tl.to(".loading", { y: "-200%", duration: 1, delay: 1.5 });
 
 
+var myAnimation = new hoverEffect({
+    parent: document.querySelector('.wrapper'),
+    crossOrigin: null,
+    intensity: 0.3,
+    image1: 'images/1.jpg',
+    image2: 'images/4.jpg',
+    displacementImage: 'images/4.png'
+});
+
+
 /*-----------animation on scroll-----------*/
 window.sr = ScrollReveal({ reset: true });
 sr.reveal(".animate-left", {

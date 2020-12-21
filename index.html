@@ -89,7 +89,7 @@
     <main class="top">
 
         <section class="presentation">
-            <div class="introduction">
+            <div class="introduction" data-aos="fade-up">
                 <h5>AMAN TANEJA</h5>
 
 
@@ -112,7 +112,7 @@
             </div>
             </div>
             <div class="cover">
-                <img src="images/bg_home.png" alt="myimage" />
+                <img src="images/dp2.png" alt="myimage" />
             </div>
 
         </section>
@@ -129,13 +129,13 @@
             <h1 class="headline headline-dark" style="font-family: nunito;" id="mid">CASE STUDIES:</h1>
             <div class="info">
 
-                <div class="description padding-right animate-left">
+                <div class="description padding-right" data-aos="fade-up">
                     <div class="global-headline">
-                        <h2 class="sub-headline">
+                        <h2 class="sub-headline" data-aos="fade-up">
                             Manyavar Indore
                         </h2>
-                        <h1 class="headline headline-dark">Freelance Project</h1>
-                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                        <h1 class="headline headline-dark" data-aos="fade-up">Freelance Project</h1>
+                        <div class="asterisk" data-aos="fade-up"><i class="fas fa-asterisk"></i></div>
                     </div>
                     <p>Developed mobile friendly fully responsive website for my freelance project with Manyavar Indore. Website includes various features like advance form submission with instant notification on email account using Google-Suite.
                     </p>
@@ -152,12 +152,12 @@
     <section class="tasteful-recipes between">
         <div class="container">
             <div class="global-headline">
-                <div class="animate-top">
+                <div class="animate-top" data-aos="fade-down">
                     <h2 class="sub-headline">
                         Responsive
                     </h2>
                 </div>
-                <div class="animate-bottom">
+                <div class="animate-bottom" data-aos="fade-up">
                     <h1 class="headline">Mobile Version</h1>
                 </div>
 
@@ -170,21 +170,21 @@
         <div class="container">
             <div class="info">
                 <div class="image-group padding-right">
-                    <img src="images/pi.gif" alt="" class="animate-left">
-                    <img src="images/esp.webp" alt="" class="animate-right">
-                    <img src="images/py.jpg" alt="" class="animate-left">
-                    <img src="images/analytics.gif" alt="" class="animate-right">
+                    <img src="images/pi.gif" alt="" class="animate-left" data-aos="fade-left">
+                    <img src="images/esp.webp" alt="" class="animate-right" data-aos="fade-right">
+                    <img src="images/py.jpg" alt="" class="animate-left" data-aos="fade-left">
+                    <img src="images/analytics.gif" alt="" class="animate-right" data-aos="fade-right">
                 </div>
 
-                <div class="description animate-right">
-                    <div class="global-headline">
+                <div class="description animate-right" data-aos="fade-up">
+                    <div class="global-headline" >
                         <h2 class="sub-headline">
                             Sensor Data analytics
                         </h2>
                         <h1 class="headline headline-dark">IoT Project</h1>
                         <div class="asterisk"><i class="fas fa-asterisk"></i></div>
                     </div>
-                    <p>This project does Sensor Data Analytics and controlled action over cloud. It includes ESP module to capture the sensor data and send it to cloud. After analysing this data, controlled action will be taken like switching on and off
+                    <p data-aos="fade-up">This project does Sensor Data Analytics and controlled action over cloud. It includes ESP module to capture the sensor data and send it to cloud. After analysing this data, controlled action will be taken like switching on and off
                         any appliances. Here raspberry pi has been used as a local cloud.</p>
                     <a href="" class="btn body-btn" target="_blank">Check It Out</a>
                 </div>
@@ -327,16 +327,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 
     <script src="hover-effect.umd.js"></script>
-    <script>
-        var myAnimation = new hoverEffect({
-            parent: document.querySelector('.wrapper'),
-            crossOrigin: null,
-            intensity: 0.3,
-            image1: 'images/1.jpg',
-            image2: 'images/4.jpg',
-            displacementImage: 'images/4.png'
-        });
-    </script>
 
     <script>
         const checkpoint = 700;
@@ -378,9 +368,13 @@
             });
         });
     </script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>
+        AOS.init({
+        duration: 1200,
+});</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
     <script src="script.js"></script>
 
 </body>

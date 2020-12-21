@@ -75,7 +75,6 @@ header {
     padding: 2rem;
     min-height: 90vh;
     align-items: center;
-    animation: drop 3.1s ease-in;
 }
 
 .cover {
@@ -92,7 +91,6 @@ header {
 .cover img {
     height: 100%;
     align-content: center;
-    filter: drop-shadow(0px 5px 3px black);
     z-index: -1;
 }
 
@@ -243,6 +241,7 @@ header {
     }
     .introduction {
         margin-top: 95%;
+        
     }
     .introduction h5 {
         -moz-animation-duration: 0s;
@@ -251,15 +250,27 @@ header {
         -webkit-animation-name: none;
     }
     .presentation {
-        background-image: url("images/home.png");
+        background-image: url("images/2.png");
         background-attachment: fixed;
-        background-position: right;
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-x: center;
+        background-position-x: 5%;
         background-position-y: 7px;
         margin-top: -1%;
+        color: white;
+        
     }
+
+    .introduction h5{
+        color: #000;
+    }
+
+    .cta p {
+        color: #000;
+    }
+
+    
     #cursor {
         display: none;
     }
@@ -326,7 +337,7 @@ header {
     }
 }
 
-span:before {
+.intro span:before {
     content: "";
     animation: animate 10s infinite;
 }
